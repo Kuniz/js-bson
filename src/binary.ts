@@ -450,7 +450,7 @@ export class UUID extends Binary {
         return false;
       }
 
-      return (input[6] & 0xf0) === 0x40 && (input[8] & 0x80) === 0x80;
+      return true;
     }
 
     return false;
